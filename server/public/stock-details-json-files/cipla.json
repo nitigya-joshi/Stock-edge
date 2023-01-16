@@ -1,0 +1,24 @@
+{
+    "id": "cipla",
+    "symbol": "CIPLA",
+    "name": "Cipla",
+    "image": "http://localhost:3001/images/cipla.svg",
+    
+    
+    "description":{
+        "en": "Cipla Limited is a pharmaceutical company. The Company offers its products for the therapeutic areas, including cardiovascular, children's health, dermatology & cosmetology, diabetes, HIV/AIDS, infectious diseases & critical care, malaria etc."
+    },
+    "market_cap_rank":  62,
+    "market_data":{
+        "current_price":{
+            "usd": 13.14,
+            "inr": 1067.75
+        },
+        "market_cap":{
+            "usd": 1053.68,
+            "inr": 85649
+        }
+    }
+}
+        
+    

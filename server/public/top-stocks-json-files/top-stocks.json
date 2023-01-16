@@ -1,0 +1,81 @@
+
+    [
+        {
+            "id": "nifty50",
+            "image": "http://localhost:3001/images/nifty50.svg",
+            "name": "Nifty 50 Index",
+            "symbol": "NIFTY 50",
+            "current_price": 17894.85,
+            "price_change_percentage_24h": -0.34,
+            "market_cap": 14273446.74,
+            "rank": 0
+        },
+
+        {
+            "id": "sensex",
+            "image": "http://localhost:3001/images/sensex.svg",
+            "name": "Sensex 30 Index",
+            "symbol": "SENSEX 30",
+            "current_price": 60092.97,
+            "price_change_percentage_24h": -0.28,
+            "market_cap": 11944825.80,
+            "rank": 0
+        },
+
+        {
+            "id": "reliance",
+            "image": "http://localhost:3001/images/reliance.svg",
+            "name": "Reliance",
+            "symbol": "REL",
+            "current_price": 2444.50,
+            "price_change_percentage_24h": -0.94,
+            "market_cap": 1621415,
+            "rank": 1
+        },
+
+        {
+            "id": "cipla",
+            "image": "http://localhost:3001/images/cipla.svg",
+            "name": "Cipla Ltd",
+            "symbol": "CIPLA",
+            "current_price": 1059.60,
+            "price_change_percentage_24h": -0.76,
+            "market_cap": 86182,
+            "rank": 63
+        },
+
+        {
+            "id": "eichermotors",
+            "image": "http://localhost:3001/images/eichermotors.svg",
+            "name": "Eicher Motors",
+            "symbol": "EICHERMOT",
+            "current_price": 3139.05,
+            "price_change_percentage_24h": -0.73,
+            "market_cap": 86468,
+            "rank": 62
+        },
+
+        {
+            "id": "tatasteel",
+            "image": "http://localhost:3001/images/tatasteel.svg",
+            "name": "Tata Steel Ltd",
+            "symbol": "TATASTEEL",
+            "current_price": 120.45,
+            "price_change_percentage_24h": -0.42,
+            "market_cap": 147231,
+            "rank": 39
+        },
+
+        
+
+        {
+            "id": "ashokleyland",
+            "image": "http://localhost:3001/images/ashokleyland.svg",
+            "name": "Ashok Leyland Ltd",
+            "symbol": "ASHOKLEY",
+            "current_price": 146.75,
+            "price_change_percentage_24h": -0.20,
+            "market_cap": 43175,
+            "rank": 119
+        }
+    ]

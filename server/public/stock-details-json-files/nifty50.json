@@ -1,0 +1,27 @@
+{
+    "id": "nifty50",
+    "symbol": "NIFTY50",
+    "name": "NIFTY 50 (NSE)",
+    "image": "http://localhost:3001/images/nifty50.svg",
+    
+    
+    "description":{
+        "en": "Nifty 50 is a well diversified 50 stock index. It represents the top 50 Largecap companies based on market capitalisation. The rescheduling of index constituents happens bi-annually every year. "
+    },
+    "market_cap_rank":  63,
+    "market_data":{
+        "current_price":{
+            "usd": 220.15,
+            "inr":17894.85
+        },
+        "market_cap":{
+            "usd": 1043.97,
+            "inr": 84860
+        }
+        
+    },
+    "benchmark":"This is the benchmark market index",
+    "constituents": 50
+}
+        
+    

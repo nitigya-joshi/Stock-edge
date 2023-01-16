@@ -1,0 +1,61 @@
+[{  
+    "id":"reliance",
+    "image": "http://localhost:3001/images/reliance.svg",
+    "name": "Reliance",
+    "symbol": "REL",
+    "price_change_percentage_24h": "-0.16",
+    "current_price": 2467.60
+}
+,
+{   
+    "id":"cipla",
+    "image": "http://localhost:3001/images/cipla.svg",
+    "name": "Cipla Ltd",
+    "symbol": "CIPLA",
+    "price_change_percentage_24h": "0.62",
+    "current_price": 1067.75
+}
+,
+{   
+    "id":"tatasteel",
+    "image": "http://localhost:3001/images/tatasteel.svg",
+    "name": "Tata Steel Ltd",
+    "symbol": "TATASTEEL",
+    "price_change_percentage_24h": "1.99",
+    "current_price": 120.45
+}
+,
+{   
+    "id":"ashokleyland",
+    "image": "http://localhost:3001/images/ashokleyland.svg",
+    "name": "Ashok Leyland Ltd",
+    "symbol": "ASHOKLEY",
+    "price_change_percentage_24h": "0.17",
+    "current_price": 147.05
+},
+{   
+    "id":"eichermotors",
+    "image": "http://localhost:3001/images/eichermotors.svg",
+    "name": "Eicher Motors Ltd",
+    "symbol": "EICHERMOT",
+    "price_change_percentage_24h": "1.89",
+    "current_price": 3162.05
+},
+{   
+    "id":"nifty50",
+    "image": "http://localhost:3001/images/nifty50.svg",
+    "name": "Nifty 50 (NSE)",
+    "symbol": "NIFTY50",
+    "price_change_percentage_24h": "-0.34",
+    "current_price": 17894.85
+},
+{   
+    "id":"sensex",
+    "image": "http://localhost:3001/images/sensex.svg",
+    "name": "Sensex (BSE)",
+    "symbol": "SENSEX",
+    "price_change_percentage_24h": "-0.28",
+    "current_price": 60092.97
+}
+
+]

@@ -1,0 +1,24 @@
+{
+    "id": "tatasteel",
+    "symbol": "TATASTEEL",
+    "name": "Tata Steel Ltd",
+    "image": "http://localhost:3001/images/tatasteel.svg",
+    
+    
+    "description":{
+        "en": "TATA Steel Limited is a diversified steel producer, engaged in the business of steel making, including raw material and finishing operations."
+    },
+    "market_cap_rank":  39,
+    "market_data":{
+        "current_price":{
+            "usd": 1.48,
+            "inr": 120.45
+        },
+        "market_cap":{
+            "usd": 1775.94,
+            "inr": 144358
+        }
+    }
+}
+        
+    

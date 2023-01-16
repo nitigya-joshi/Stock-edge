@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box; 
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+  --primary-dark: #14161a;
+  --primary-light: gold;
+  --secondary-light: #EEBC1D;
+  --secondary-dark: #424242;
+}
+
+body{
+  background-color: var(--primary-dark);
+  
+}
+
+a{
+  text-decoration: none;
+  color: var(--primary-light);
+}
+
+.App{
+  color: whitesmoke;
+  min-height: 100vh;
+}
+
+#header{
+  background-color: var(--primary-dark);
+  width: 100%;
+  min-height: 14vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 50vw; */
+  padding: 2vh 0;
+  box-shadow: 0 0 15px rgb(112, 95, 0);
+}
+
+.appTitle{
+  color: var(--primary-light);
+  font-size: 1.8vmax ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  margin-left: 5%;
+  
+}
+
+#headerCorner{
+  display: flex;
+  gap: 20%;
+  margin-right: 5%;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+  height: 3.4vmax;
+  /* background-color: aliceblue; */
+}
+
+#currencySelect,#loginBtn{
+  width: 40% !important;
+  height: 3.4vmax !important; 
+  padding: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  border-radius: 0.8vmin;
+  color: aliceblue !important;
+  /* background-color: aqua; */
+}
+
+.css-1vrqiqu-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root,.Mui-focused {
+  width: 40% !important;
+  height: 100% !important;
+  font-weight: 400 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  /* background-color: brown; */
+}
+
+
+.css-1if8r2c-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+  width: 7vw !important;
+
+}
+
+ /* currency selected drowp down svg */
+.css-1wu7ecg-MuiSvgIcon-root-MuiSelect-icon{
+  width: 25% !important;
+  height: 100% !important;
+  position: relative !important;
+  top:0 !important;
+  right: 0 !important;
+  z-index: 100 !important;
+  cursor: pointer !important;
+  color: #111131;
+}
+
+#currencySelect{
+  font-size: 1.1vmax;
+}
+
+#loginBtn{
+  background-color: var(--primary-light);
+  color:var(--primary-dark);
+  font-size: 1.2vmax;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 40%;
+  height: 100%;
+}
+
+#homeBanner{
+  background: url("./Images/HomePageBanner.jpg");
+  width: 100%;
+  min-height: 75vh;
+  height: fit-content;
+  padding: 1.5vh 0;
+}
+
+#bannerContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  gap: 1vmax;
+  /* background-color: rgb(255, 183, 75); */
+}
+
+#bannerTitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  font-size: 5vmax;
+}
+
+#tagline{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: aliceblue;
+  font-size: 1.2vmax;
+}
+
+#trendingListContainer{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 7vh;
+  /* background-color: aqua; */
+}
+
+.trendingItem{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vmin;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+
+.itemImage{
+  width: 15vh;
+  height: 15vh;
+  padding: 1vh;
+  border-radius: 50%;
+  box-shadow: 0 0 1vmax rgb(255, 255, 255);
+  margin: 1vmax 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.929);
+}
+
+.symbol{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: aliceblue;
+  font-size: 1.4vmax;
+  letter-spacing: 1px;
+}
+
+.itemPrice{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: aliceblue;
+  font-size: 1.2vmax;
+  margin-top: 0.4vmax;
+  letter-spacing: 1px;
+}
+
+.changeContainer{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vmax;
+}
+
+.triangleUp {
+	width: 0;
+	height: 0;
+	border-left: 0.8vmin solid transparent;
+	border-right: 0.8vmin solid transparent;
+	border-bottom: 1.6vmin solid rgb(39, 232, 97);
+}
+
+.triangleDown {
+	width: 0;
+	height: 0;
+	border-left: 0.8vmin solid transparent;
+	border-right: 0.8vmin solid transparent;
+	border-top: 1.6vmin solid rgb(255, 57, 57);
+}
+
+.percentageChange{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1vmax;
+}
+
+.positiveChange{
+  color: rgb(7, 215, 38);
+}
+
+.negativeChange{
+  color:rgb(210, 13, 13)
+}
+
+#coinsTableContainer{
+  width: 100%;
+  height: fit-content;
+  background-color: var(--primary-dark);
+  padding: 2vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vmax;
+}
+
+#coinsTableHead{
+  font-size: 3.5vmax;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.coinsTableImg{
+  width: 10vh;
+  height: 10vh;
+}
+.coinsNameContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 1vmin;
+}
+
+.coinsTableName{
+  color: darkgrey;
+  font-size: 1vmax;
+}
+
+.coinsTableSymbol{
+  color: rgb(255, 255, 255);
+  font-size: 1.3vmax;
+}
+
+.coinsTableRow{
+  background-color: var(--primary-dark) !important;
+  cursor: pointer;
+}
+.coinsTableRow:hover{
+  background-color: #131111 !important;
+}
+
+.MuiPagination-ul li button{
+  color: var(--primary-light);
+  font-weight: 500;
+  font-size: 1.1vmax;
+}
+
+#coinPageContainer{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-dark);
+  width: 100%;
+  min-height: 86vh;
+  height: fit-content;
+}
+#coinDescriptionSidebar{
+  width: 30%;
+  min-height: 180%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+  padding: 3% 2%;
+  border-right: min(4px,0.4vmin) solid rgb(176, 176, 176);
+  box-shadow: 0 0 12px rgb(169, 169, 169);
+}
+
+#sidebarImg{
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 50%;
+  box-shadow: 0 0 0.8vmax rgb(255, 255, 255);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.929);
+}
+
+#sidebarName{
+  font-size: 160%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+#sidebarDescription{
+  font-size: 90%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  line-height: max(25px,2.5vmax);
+}
+
+#sidebarInfoContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  gap: 2vmin;
+  /* background-color: beige; */
+}
+
+.sidebarInfo{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+  gap: 5%;
+  font-size: 120%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: var(--primary-light);
+  margin-top: 1vh;
+  /* background-color: aqua; */
+}
+
+.sidebarInfoHead{
+  font-size: 130%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+#chartContainer{
+  width: 70%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  gap: 2vmin;
+  padding: 3% 2%;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+#addToWatchlistBtn{
+  font-size: 100% !important;
+  width: 100% !important;
+  height: fit-content !important;
+  background-color: var(--secondary-light) !important;
+  font-weight: 600 !important;
+  color: black;
+  word-spacing: 4px;
+  /* text-transform: none !important; */
+  font-family: 'Montserrat', sans-serif !important; 
+}
+
+#removeFromWatchlistBtn{
+  font-size: 100% !important;
+  width: 100% !important;
+  height: fit-content !important;
+  background-color: var(--secondary-light) !important;
+  font-weight: 600 !important;
+  color: rgb(255, 255, 255) !important;
+  word-spacing: 4px;
+  background-color: rgb(255, 25, 25) !important;
+  /* text-transform: none !important; */
+  font-family: 'Montserrat', sans-serif !important; 
+}
+
+#daysBtnContainer{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  min-height: 8vh;
+  justify-content: space-between;
+}
+
+.daysBtn{
+  min-width: 23%;
+  min-height: 100%;
+  width: fit-content;
+  height: fit-content;
+  font-size: min(120%,4vw);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: aliceblue;
+  border-radius: min(8px,1vmin);
+  border: min(1vmin,2px) solid var(--primary-light);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.daysBtn:hover{
+  background-color: var(--primary-light);
+  color: #111131;
+}
+
+.selected{
+  background-color: var(--primary-light);
+  font-weight: 700;
+  color: #111131;
+}
+
+
+
+#modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalBox{
+  position: absolute;
+  /* top: 50%; */
+  left: 34%;
+  width: 32%;
+  height: fit-content;
+  /* box-shadow: 0 0 10px var(--primary-light); */
+  background-color: var(--secondary-dark);
+  border-radius: 1.5vmin;
+  border: none !important;
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalTab{
+  color: whitesmoke !important;
+  font-size: 1.1vmax !important;
+  height: fit-content;
+
+}
+/* 
+.modalTab .mui */
+#modalTabContainer{
+  height: fit-content;
+  padding: 1% 0;
+  z-index: 2;
+  border-bottom: 1px solid var(--primary-dark) !important;
+  padding: 0.5vmax 0;
+  padding-bottom: 0;
+ 
+}
+
+.modalTab[aria-selected="true"]{
+  color: var(--primary-light) !important;
+}
+
+.css-3sx0hq-MuiTabs-indicator{
+  /* background-color: rgb(0, 0, 0) !important; */
+  height: 2.5px !important;
+}
+
+#loginContainer,#signinContainer{
+  width: 100%;
+  background-color: var(--secondary-dark);
+  height: fit-content;
+  padding: 2vmax 2vmax;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vmax;
+  box-shadow: 0 0 10px inset var(--primary-dark);
+
+}
+
+
+.customTextFieldContainer{
+  width: 100%;
+  position: relative;
+  border-radius: 0.5vmin;
+  border: min(2px,0.2vmin) solid rgba(255, 255, 255,0.7);
+  /* background-color: violet; */
+}
+
+
+
+.customTextField{
+  width: 100%;
+  height: fit-content;
+  font-size: 1.1vmax;
+  min-height: 8vh;
+  background-color: transparent;
+  border-radius: 0.5vmin;
+  border: none;
+  cursor:  text;
+  display: flex;
+  align-items: center;
+  padding: 2% 5%;
+  position: relative;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 2;
+  outline: none;
+}
+
+.customTextFieldLabel,.customTextFieldLabelLength{
+  font-size: 1.2vmax;
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+  opacity: 0.4;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 1%;
+  display: flex;
+  align-items: center;
+  padding: 0 1vmax;
+  z-index: 1;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.customTextFieldContainer:focus-within .customTextFieldLabel ,.customTextFieldLabelLength{
+  top:-25%;
+  left: 1%;
+  width: fit-content;
+  height: fit-content;
+  z-index: 3;
+  background-color: inherit;
+  background-color: var(--secondary-dark);
+  transform: scale(0.75);
+  opacity: 1;
+
+}
+
+.customTextFieldContainer:focus-within {
+  border-width: min(3px,0.3vmin) !important;
+  border-color: rgb(255, 255, 255) !important;
+}
+
+.customTextFieldContainer:hover{
+  border-color: rgb(255, 255, 255);
+  border-width: min(3px,0.3vmin);
+}
+
+.authBtn, .googleBtn{
+  width: 100% !important;
+  min-height: 6.5vh !important;
+  height: fit-content !important;
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  font-size: 1.5vmax;
+  border-radius: 0.8vmin !important;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 !important;
+}
+/* 
+.googleBtn{
+  margin-bottom: 1vh !important;
+  width: 90% !important;
+} */
+
+.authBtn:hover{
+  box-shadow: 0 0px 7px var(--secondary-light);
+}
+
+.orText{
+  width: 100%;
+  height: fit-content;
+  font-size: 1.5vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  /* margin: 0.3vmax 0; */
+  color: whitesmoke;
+}
+
+#profileAvatar,#sidebarProfileAvatar{
+  width: 3vmax !important;
+  height: 3vmax !important;
+  background-color: var(--secondary-light) !important;
+  cursor: pointer ;
+  object-fit: contain;
+}
+
+#sidebarProfileAvatar{
+    width: 8vmax !important;
+    height: 8vmax !important;
+}
+
+
+#userSideBarContainer{
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  align-items: center;
+  padding: 2vh 0;
+}
+
+#profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  gap: 1vh;
+  /* background-color: aqua; */
+}
+
+#profileName{
+  font-weight: 700;
+  font-size: 1.7vmax;
+  word-wrap: break-word;
+}
+
+.watchlist{
+  width: 85%;
+  height: 65%;
+  background-color: #424242;
+  border-radius: 1.2vmin;
+  overflow-y: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1.3vh 0;
+  align-items: center;
+}
+
+.watchlistHeader{
+  font-size: 1.4vmax;
+  font-weight: 500;
+  font-family: monospace;
+}
+
+.watchlistItemContainer{
+  width: 100%;
+  height: 100%;
+  /* background-color: yellowgreen; */
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vmax;
+}
+
+.watchlistItem{
+  padding: 2% 3%;
+  width: 100%;
+  height: fit-content;
+  font-size: 1vmax;
+  color: var(--primary-dark);
+  background-color: var(--secondary-light);
+  border-radius: 0.8vmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.watchlistItemCorner{
+  display: flex;
+  min-width: 40%;
+  width: fit-content;
+  height: fit-content;
+  gap: 8%;
+  align-items: center;
+  justify-content: end;
+  /* background-color: aqua; */
+}
+
+
+.watchlistItemPrice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 5px;
+  /* background-color: violet; */
+}
+
+.watchlistItemDeleteIcon{
+  z-index: 3;
+}
+
+.logoutBtn{
+  background-color: var(--secondary-light) !important;
+  height: 8% !important;
+  margin: 0 3% !important;
+  font-weight: 500;
+  font-size: 1.2vmax !important;
+  margin-bottom: 1.5vh !important;
+}
+
+@media only screen and (max-width:991px) {
+  #coinPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+  #coinDescriptionSidebar{
+    width: 100%;
+  }
+  /* #sidebarInfoContainer{
+
+  } */
+  #chartContainer{
+    width: 100%;
+  }
+
+  #modalBox{
+    left: 10%;
+    width: 80%;
+    height: fit-content;
+  }
+  #headerCorner{
+    width: 40%;
+  }
+  #userSideBarContainer{
+    width: 90vw;
+  }
+}

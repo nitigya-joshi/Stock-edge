@@ -1,0 +1,24 @@
+{
+    "id": "ashokleyland",
+    "symbol": "ASHOKLEY",
+    "name": "Ashok Leyland",
+    "image": "http://localhost:3001/images/ashokleyland.svg",
+    
+    
+    "description":{
+        "en": "Ashok Leyland Limited is a company is engaged in the manufacture of commercial vehicles and related components."
+    },
+    "market_cap_rank":  119,
+    "market_data":{
+        "current_price":{
+            "usd": 1.81,
+            "inr": 147.05
+        },
+        "market_cap":{
+            "usd": 517.95,
+            "inr": 42102
+        }
+    }
+}
+        
+    

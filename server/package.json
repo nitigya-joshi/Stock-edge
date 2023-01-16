@@ -1,0 +1,29 @@
+{
+  "name": "stock-edge-api-microservice",
+  "version": "1.0.0",
+  "description": "Api microservice for flipr hackathon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "startDev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-Tulsani/Flipr-Hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yash-Tulsani/Flipr-Hackathon/issues"
+  },
+  "homepage": "https://github.com/Yash-Tulsani/Flipr-Hackathon#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

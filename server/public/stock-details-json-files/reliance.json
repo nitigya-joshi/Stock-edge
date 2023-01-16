@@ -1,0 +1,20 @@
+{
+    "id": "reliance",
+    "symbol": "REL",
+    "name": "Reliance",
+    "image": "http://localhost:3001/images/reliance.svg",
+    "description":{
+        "en": "Reliance Industries Limited is engaged in refining, manufacturing of refined petroleum products, petrochemicals, including manufacturing of basic chemicals, fertilizers and nitrogen compounds, plastic and synthetic rubber in primary forms."
+    },
+    "market_cap_rank": 1,
+    "market_data":{
+        "current_price":{
+            "usd": 30.36,
+            "inr": 2467.60
+        },
+        "market_cap":{
+            "usd": 19979.48,
+            "inr": 1624042
+        }
+    }
+}

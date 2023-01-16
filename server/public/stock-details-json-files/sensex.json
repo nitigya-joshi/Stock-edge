@@ -1,0 +1,27 @@
+{
+    "id": "sensex",
+    "symbol": "SENSEX",
+    "name": "SENSEX (BSE)",
+    "image": "http://localhost:3001/images/sensex.svg",
+    
+    
+    "description":{
+        "en": "Sensex is a well diversified 30 stock index. It represents the top 30 Largecap companies based on market capitalisation. The rescheduling of index constituents happens bi-annually every year. "
+    },
+    "market_cap_rank":  63,
+    "market_data":{
+        "current_price":{
+            "usd": 739.27,
+            "inr": 60092.05
+        },
+        "market_cap":{
+            "usd": 1043.97,
+            "inr": 84860
+        }
+        
+    },
+    "benchmark":"This is the benchmark market index",
+    "constituents": 30
+}
+        
+    
