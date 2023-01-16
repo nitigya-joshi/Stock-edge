@@ -1,0 +1,82 @@
+[
+    {
+        "id": "nifty50",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Nifty_50_Logo.svg/1200px-Nifty_50_Logo.svg.png",
+        "name": "Nifty 50 Index",
+        "symbol": "NIFTY 50",
+        "current_price": 17894.85,
+        "price_change_percentage_24h": -0.34,
+        "market_cap": 14273446.74,
+        "rank": 0
+    },
+    {
+        "id": "sensex",
+        "image": "https://thumbs.dreamstime.com/b/sensex-up-stock-market-sensex-going-up-stock-market-bull-graph-vector-sensex-up-stock-market-sensex-going-up-stock-market-bull-190216491.jpg",
+        "name": "Sensex 30 Index",
+        "symbol": "SENSEX 30",
+        "current_price": 60092.97,
+        "price_change_percentage_24h": -0.28,
+        "market_cap": 11944825.80,
+        "rank": 0
+    },
+    {
+        "id": "reliance",
+        "image": "http://localhost:3001/images/reliance.svg",
+        "name": "Reliance",
+        "symbol": "REL",
+        "current_price": 2444.50,
+        "price_change_percentage_24h": -0.94,
+        "market_cap": 1621415,
+        "rank": 1
+    },
+    {
+        "id": "ciplaltd",
+        "image": "https://assets.tickertape.in/brands/logos/CIPL_1.jpg",
+        "name": "Cipla Ltd",
+        "symbol": "CIPLA",
+        "current_price": 1059.60,
+        "price_change_percentage_24h": -0.76,
+        "market_cap": 86182,
+        "rank": 63
+    },
+    {
+        "id": "eichermotors",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0GjDCiW03C-mdRMNeSIivk5NgKbJKTVMCo6QQYz1LzA&s",
+        "name": "Eicher Motors",
+        "symbol": "EICHERMOT",
+        "current_price": 3139.05,
+        "price_change_percentage_24h": -0.73,
+        "market_cap": 86468,
+        "rank": 62
+    },
+    {
+        "id": "tatasteel",
+        "image": "",
+        "name": "Tata Steel Ltd",
+        "symbol": "TATASTEEL",
+        "current_price": 120.45,
+        "price_change_percentage_24h": -0.42,
+        "market_cap": 147231,
+        "rank": 39
+    },
+    {
+        "id": "adanienterprisesltd",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Adani_logo_2012.svg/1200px-Adani_logo_2012.svg.png",
+        "name": "Adani Enterprises Ltd",
+        "symbol": "ADANIENT",
+        "current_price": 3619.80,
+        "price_change_percentage_24h": -2.72,
+        "market_cap": 424211,
+        "rank": 11
+    },
+    {
+        "id": "askokleyland",
+        "image": "",
+        "name": "Ashok Leyland Ltd",
+        "symbol": "ASHOKLEY",
+        "current_price": 146.75,
+        "price_change_percentage_24h": -0.20,
+        "market_cap": 43175,
+        "rank": 119
+    }
+]
